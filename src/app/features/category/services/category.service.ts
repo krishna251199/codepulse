@@ -19,7 +19,7 @@ export class CategoryService {
   }
   getAllCategories(): Observable<Category[]>
   {
-    console.log("I am in get all categories");
+    console.log("I am in get all categoriess");
     return this.http.get<Category[]>(`${environment.apiBaseUrl}/api/categories`)
   }
 }
